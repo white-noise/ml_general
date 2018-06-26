@@ -84,3 +84,4 @@ def dense(x, inputFeatures, outputFeatures, scope=None, with_w=False):
             return tf.matmul(x, matrix) + bias, matrix, bias
         else:
             return tf.matmul(x, matrix) + bias
+            
